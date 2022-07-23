@@ -13,7 +13,6 @@ import com.example.anil_store.model.Product
 class ProductAdapter(val context: Context, val products: List<Product>) :
     RecyclerView.Adapter<ProductAdapter.ProductHolder>() {
 
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.product_listitem, parent, false)
         return ProductHolder(view)
